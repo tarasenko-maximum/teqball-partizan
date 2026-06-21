@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teqball Partizan — Zvanični sajt</title>
+  <meta name="description" content="Teqball Partizan - zvanični sajt teqball sekcije JSD Partizan. Nikola Mitro, Bogdan Marojević, Maja Umićević. Najbrže rastući sport na svetu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23000' stroke='%23DC2626' stroke-width='4'/%3E%3Ctext x='50' y='62' font-family='Arial' font-weight='bold' font-size='40' fill='%23DC2626' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+                <img src="images/icons/logo.png" alt="JSD Partizan" width="40" height="40" style="border-radius:50%">
+        <span class="nav-logo-text">TEQBALL <span>PARTIZAN</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Početna</a>
+        <a href="about.html">O nama</a>
+        <a href="players.html">Igrači</a>
+        <a href="calendar.html">Kalendar</a>
+        <a href="news.html">Vesti</a>
+        <a href="gallery.html">Galerija</a>
+        <a href="video.html">Video</a>
+        <a href="training.html">Treninzi</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="contact.html" class="nav-cta">Pridruži se</a>
+        <div class="lang-switch">
+          <a href="index.html" class="active">SR</a>
+          <a href="en/index.html">EN</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">JSD Partizan • Teqball Sekcija</div>
+      <h1 class="hero-title">
+        <span class="gradient-text">TEQBALL</span><br>
+        <span class="red-text">PARTIZAN</span>
+      </h1>
+      <p class="hero-subtitle">Najbrže rastući sport na svetu — u srcu Partizana</p>
+      <div class="hero-buttons">
+        <a href="about.html" class="btn btn-primary">Saznaj više</a>
+        <a href="contact.html" class="btn btn-secondary">Pridruži se</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ŠTA JE TEQBALL ===== -->
+  <section class="section info-section" id="teqball">
+    <div class="container">
+      <h2 class="section-title"><span>Šta je</span> Teqball?</h2>
+      <div class="info-grid">
+        <div class="info-text">
+          <p><strong>Teqball</strong> je hibridni sport koji kombinuje fudbal i stoni tenis. Igra se na zakrivljenom stolu (teq table) koji omogućava lopti da se odbija ka igraču, stvarajući dinamičnu i brzu igru.</p>
+          <p>Sport je izmislio <strong>Gábor Borsányi</strong> 2014. godine u Mađarskoj. Danas njime upravlja <strong>FITEQ</strong> (Međunarodna teqball federacija) sa preko <strong>114 nacionalnih federacija</strong> širom sveta.</p>
+          <p>Teqball je priznat od strane <strong>GAISF-a</strong> i teži ka uključivanju u <strong>Olimpijske igre do 2028. godine</strong>.</p>
+          
+          <div class="rules-list">
+            <div class="rule-item">
+              <span class="rule-icon">⚽</span>
+              <span>Mec se igra na 2 dobijena seta do 12 poena</span>
+            </div>
+            <div class="rule-item">
+              <span class="rule-icon">🚫</span>
+              <span>Zabranjeno je igranje rukama</span>
+            </div>
+            <div class="rule-item">
+              <span class="rule-icon">👆</span>
+              <span>Maksimalno 3 dodira pre nego što lopta pređe mrežu</span>
+            </div>
+            <div class="rule-item">
+              <span class="rule-icon">🔄</span>
+              <span>Nijedan deo tela ne sme da dotakne loptu dva puta uzastopno</span>
+            </div>
+          </div>
+        </div>
+        <div class="info-image">
+          <img src="https://www.teqball.com/wp-content/uploads/2024/01/teqball-table-action.jpg" alt="Teqball sto i igra" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#00D4FF,#FFD700);border-radius:16px;padding:100px 40px;text-align:center;color:#000;font-family:Bebas+Neue,sans-serif;font-size:2rem\'>TEQBALL TABLE</div>'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== USPEHI SRBIJE (Timeline) ===== -->
+  <section class="section" id="uspesi">
+    <div class="container">
+      <h2 class="section-title"><span>Uspesi</span> Srbije</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2018</div>
+            <h3>Svetski prvaci</h3>
+            <p>Nikola Mitro i Bogdan Marojević osvajaju zlato na Svetskom prvenstvu u Reims-u, Francuska.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2019</div>
+            <h3>Svetski prvaci</h3>
+            <p>Srbija odbranila titulu svetskih prvaka. Mitro i Marojević dominantni na svetskoj sceni.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2021</div>
+            <h3>Zlato — Svetsko prvenstvo</h3>
+            <p>Poljska — Srbija osvaja zlatnu medalju na Svetskom prvenstvu u teqballu.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2022</div>
+            <h3>Zlato — Ulcinj</h3>
+            <p>Srpski reprezentativci osvajaju zlatnu medalju na turniru u Ulcinju, Crna Gora.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2023</div>
+            <h3>Srebro — Evropske igre</h3>
+            <p>Nikola Mitro i Maja Umićević osvajaju srebrnu medalju u miksu na Evropskim igrama u Krakovu.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2026</div>
+            <h3>#2 na svetu</h3>
+            <p>Nikola Mitro dostiže 2. mesto na svetskoj rang listi u singlu — najviši rang u karijeri.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NAŠI IGRAČI ===== -->
+  <section class="section info-section" id="igraci">
+    <div class="container">
+      <h2 class="section-title"><span>Naši</span> Igrači</h2>
+      <div class="grid-3">
+        <div class="player-card">
+          <div class="player-avatar initials">NM</div>
+          <h3>Nikola Mitro</h3>
+          <div class="player-rank">Svetski #2 — Singl</div>
+          <p class="player-stats">31 godina • 626-130 skor • 38 titula</p>
+        </div>
+        <div class="player-card">
+          <div class="player-avatar initials" style="background:linear-gradient(135deg,#FFD700,#DC2626)">BM</div>
+          <h3>Bogdan Marojević</h3>
+          <div class="player-rank">Svetski #6 — Singl</div>
+          <p class="player-stats">33 godine • 446-87 skor • 36 titula</p>
+        </div>
+        <div class="player-card">
+          <div class="player-avatar initials" style="background:linear-gradient(135deg,#00D4FF,#DC2626)">MU</div>
+          <h3>Maja Umićević</h3>
+          <div class="player-rank">Svetski #28 — Singl • #21 — Miks</div>
+          <p class="player-stats">27 godina • Srebro Evropske igre 2023</p>
+        </div>
+      </div>
+      <div class="text-center mt-40">
+        <a href="players.html" class="btn btn-cyan">Pogledaj sve igrače</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERIJA ===== -->
+  <section class="section" id="galerija">
+    <div class="container">
+      <h2 class="section-title"><span>Galerija</span></h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://www.teqball.com/wp-content/uploads/2023/09/teqball-world-championships-2023.jpg" alt="Teqball World Championships" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#00D4FF,#FFD700);width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#000;font-family:Bebas+Neue;font-size:1.2rem\'>TEQBALL CHAMPIONSHIPS</div>'">
+          <div class="gallery-item-overlay"><span>Svetsko prvenstvo 2023</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://www.teqball.com/wp-content/uploads/2024/01/teqball-training-session.jpg" alt="Teqball trening" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#DC2626,#00D4FF);width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Bebas+Neue;font-size:1.2rem\'>TRAINING</div>'">
+          <div class="gallery-item-overlay"><span>Trening sesija</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://www.teqball.com/wp-content/uploads/2023/06/european-games-2023-teqball.jpg" alt="European Games 2023" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#FFD700,#DC2626);width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#000;font-family:Bebas+Neue;font-size:1.2rem\'>EUROPEAN GAMES 2023</div>'">
+          <div class="gallery-item-overlay"><span>Evropske igre 2023</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://www.teqball.com/wp-content/uploads/2022/12/teqball-mitro-action.jpg" alt="Nikola Mitro" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#000,#DC2626);width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Bebas+Neue;font-size:1.2rem\'>MITRO</div>'">
+          <div class="gallery-item-overlay"><span>Nikola Mitro u akciji</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://www.teqball.com/wp-content/uploads/2022/12/teqball-doubles-match.jpg" alt="Teqball dubl" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#00D4FF,#000);width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Bebas+Neue;font-size:1.2rem\'>DOUBLES</div>'">
+          <div class="gallery-item-overlay"><span>Dubl meč</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://www.teqball.com/wp-content/uploads/2024/01/teqball-celebration.jpg" alt="Teqball proslava" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\'background:linear-gradient(135deg,#FFD700,#000);width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Bebas+Neue;font-size:1.2rem\'>CELEBRATION</div>'">
+          <div class="gallery-item-overlay"><span>Proslava pobede</span></div>
+        </div>
+      </div>
+      <div class="text-center mt-40">
+        <a href="gallery.html" class="btn btn-gold">Pogledaj celu galeriju</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARTNERI ===== -->
+  <section class="section info-section" id="partneri">
+    <div class="container">
+      <h2 class="section-title"><span>Partneri</span></h2>
+      <div class="partners-grid">
+        <div class="partner-item">
+          <div class="partner-placeholder" style="color:#DC2626;font-size:1.6rem">SRBTEQ</div>
+          <p style="color:var(--white-50);font-size:0.8rem;margin-top:4px">Teqball Savez Srbije</p>
+        </div>
+        <div class="partner-item">
+          <div class="partner-placeholder" style="color:#00D4FF">UNDER<br>ARMOUR</div>
+        </div>
+        <div class="partner-item">
+          <div class="partner-placeholder" style="color:#FFD700">MAXBET</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">TEQBALL <span>PARTIZAN</span></div>
+          <p>Zvanični sajt teqball sekcije JSD Partizan. Pratite nas za najnovije vesti, rezultate i informacije o treninzima.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/teqliman" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/teqball" target="_blank" rel="noopener" aria-label="Teqball Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://teqball.com" target="_blank" rel="noopener" aria-label="Teqball official"><i class="fas fa-globe"></i></a>
+            <a href="https://jsdpartizan.rs" target="_blank" rel="noopener" aria-label="JSD Partizan"><i class="fas fa-shield-halved"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Linkovi</h4>
+          <a href="about.html">O nama</a>
+          <a href="players.html">Igrači</a>
+        <a href="calendar.html">Kalendar</a>
+          <a href="news.html">Vesti</a>
+          <a href="gallery.html">Galerija</a>
+          <a href="contact.html">Kontakt</a>
+        </div>
+        <div class="footer-col">
+          <h4>Sport</h4>
+          <a href="training.html">Treninzi</a>
+          <a href="video.html">Video</a>
+          <a href="https://teqball.com" target="_blank">Teqball.com</a>
+          <a href="https://fiteq.com" target="_blank">FITEQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <a href="https://maps.google.com/?q=Humska+1+Beograd" target="_blank">Humska 1, 11000 Beograd</a>
+          <a href="https://instagram.com/teqliman" target="_blank">@teqliman</a>
+          <a href="https://jsdpartizan.rs" target="_blank">JSD Partizan</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Teqball Partizan. Sva prava zadržana.</p>
+        <p>Deo JSD Partizan porodice</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== NAVIGATION TOGGLE SCRIPT ===== -->
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>

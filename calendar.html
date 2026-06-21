@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalendar — Teqball Partizan</title>
+  <meta name="description" content="Kalendar teqball događaja - treninzi, turniri, takmičenja Teqball Partizana.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23000' stroke='%23DC2626' stroke-width='4'/%3E%3Ctext x='50' y='62' font-family='Arial' font-weight='bold' font-size='40' fill='%23DC2626' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/icons/logo.png" alt="JSD Partizan" width="40" height="40" style="border-radius:50%">
+        <span class="nav-logo-text">TEQBALL <span>PARTIZAN</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Početna</a>
+        <a href="about.html">O nama</a>
+        <a href="players.html">Igrači</a>
+        <a href="calendar.html" class="active">Kalendar</a>
+        <a href="news.html">Vesti</a>
+        <a href="gallery.html">Galerija</a>
+        <a href="video.html">Video</a>
+        <a href="training.html">Treninzi</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="contact.html" class="nav-cta">Pridruži se</a>
+        <div class="lang-switch">
+          <a href="calendar.html" class="active">SR</a>
+          <a href="en/calendar.html">EN</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero hero-small">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Teqball Partizan</div>
+      <h1 class="hero-title"><span class="gradient-text">Kalendar</span> <span class="red-text">Događaja</span></h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">Jul 2026</div>
+            <h3>Letnji kamp — Teqball Partizan</h3>
+            <p>Nedeljni teqball kamp na Humskoj 1. Otvoreno za sve uzraste i nivoe. Prijave putem kontakt forme.</p>
+          </div>
+          <div class="timeline-dot" style="background:var(--cyan)"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">Avgust 2026</div>
+            <h3>Srpska Challenger Serija</h3>
+            <p>Prvi krug Srpske Challenger Serije 2026. Takmičenje u singlu, dublu i miksu. Beograd — Humska 1.</p>
+          </div>
+          <div class="timeline-dot" style="background:var(--gold)"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">Septembar 2026</div>
+            <h3>Svetsko prvenstvo — pripreme</h3>
+            <p>Završne pripreme reprezentacije Srbije za Svetsko prvenstvo. Zatvoreni treninzi.</p>
+          </div>
+          <div class="timeline-dot" style="background:var(--cyan)"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">Oktobar 2026</div>
+            <h3>Svetsko teqball prvenstvo</h3>
+            <p>Najveći događaj godine! Srbija šalje svoje najbolje igrače: Nikolu Mitra, Bogdana Marojevića, Maju Umićević.</p>
+          </div>
+          <div class="timeline-dot" style="background:var(--red)"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">Novembar 2026</div>
+            <h3>Adriatic Teqball Liga</h3>
+            <p>Regionalna liga — Srbija, Mađarska, Rumunija, Hrvatska. Tim Teqball Partizan učestvuje.</p>
+          </div>
+          <div class="timeline-dot" style="background:var(--gold)"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">Decembar 2026</div>
+            <h3>Završni turnir godine</h3>
+            <p>Novogodišnji turnir — otvoren za sve članove. Proglašenje najboljih igrača godine.</p>
+          </div>
+          <div class="timeline-dot" style="background:var(--cyan)"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">TEQBALL <span>PARTIZAN</span></div>
+          <p>Zvanični sajt teqball sekcije JSD Partizan.</p>
+          <div class="footer-social">
+            <a href="https://youtube.com/@TEQBALL" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com/teqliman" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/teqball" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://teqball.com" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://jsdpartizan.rs" target="_blank"><i class="fas fa-shield-halved"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Linkovi</h4>
+          <a href="about.html">O nama</a>
+          <a href="players.html">Igrači</a>
+          <a href="news.html">Vesti</a>
+          <a href="gallery.html">Galerija</a>
+          <a href="contact.html">Kontakt</a>
+        </div>
+        <div class="footer-col">
+          <h4>Sport</h4>
+          <a href="training.html">Treninzi</a>
+          <a href="video.html">Video</a>
+          <a href="https://teqball.com">Teqball.com</a>
+          <a href="https://fiteq.com">FITEQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <a href="https://maps.google.com/?q=Humska+1+Beograd">Humska 1, 11000 Beograd</a>
+          <a href="https://instagram.com/teqliman">@teqliman</a>
+          <a href="https://jsdpartizan.rs">JSD Partizan</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Teqball Partizan. Sva prava zadržana.</p>
+        <p>Deo JSD Partizan porodice</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(l => l.addEventListener('click', () => {
+      document.getElementById('navLinks').classList.remove('open');
+    }));
+  </script>
+
+</body>
+</html>

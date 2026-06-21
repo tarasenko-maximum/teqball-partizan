@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Teqball Partizan</title>
+  <meta name="description" content="Contact Teqball Partizan. Humska 1, Belgrade. Join the fastest growing sport in the world.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23000' stroke='%23DC2626' stroke-width='4'/%3E%3Ctext x='50' y='62' font-family='Arial' font-weight='bold' font-size='40' fill='%23DC2626' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+                <img src="../images/icons/logo.png" alt="JSD Partizan" width="40" height="40" style="border-radius:50%">
+        <span class="nav-logo-text">TEQBALL <span>PARTIZAN</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="players.html">Players</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="news.html">News</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="video.html">Video</a>
+        <a href="training.html">Training</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="nav-cta">Join Us</a>
+        <div class="lang-switch">
+          <a href="contact.html">SR</a>
+          <a href="contact.html" class="active">EN</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero hero-small">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Teqball Partizan</div>
+      <h1 class="hero-title"><span class="gradient-text">Contact</span></h1>
+      <p class="hero-subtitle">Join the fastest growing sport in the world</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="+381 6X XXX XXXX">
+            </div>
+            <div class="form-group">
+              <label for="interest">Interest</label>
+              <select id="interest" name="interest">
+                <option value="">Select...</option>
+                <option value="training">Training Registration</option>
+                <option value="info">Information</option>
+                <option value="sponsor">Sponsorship / Partnership</option>
+                <option value="media">Media</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📍</div>
+            <div class="contact-info-text">
+              <h4>Address</h4>
+              <p>Humska 1, 11000 Belgrade<br>JSD Partizan sports center</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📧</div>
+            <div class="contact-info-text">
+              <h4>Email</h4>
+              <p>teqball@partizan.rs</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📱</div>
+            <div class="contact-info-text">
+              <h4>Instagram</h4>
+              <p>@teqliman — follow us for the latest news</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">⏰</div>
+            <div class="contact-info-text">
+              <h4>Working Hours</h4>
+              <p>Mon—Sat: 10:00 — 20:00<br>Sunday: By appointment</p>
+            </div>
+          </div>
+
+          <div style="margin-top:16px;background:var(--glass-bg);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:16px;padding:24px;text-align:center">
+            <h3 style="font-size:1.2rem;margin-bottom:8px">Join <span class="gradient-text">Teqball</span> <span class="red-text">Partizan</span></h3>
+            <p style="color:var(--white-50);font-size:0.9rem;margin-bottom:16px">Come for a trial training session and discover the fastest growing sport in the world!</p>
+            <a href="training.html" class="btn btn-primary">View Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">TEQBALL <span>PARTIZAN</span></div>
+          <p>Official website of the JSD Partizan teqball section.</p>
+          <div class="footer-social">
+            <a href="https://youtube.com/@TEQBALL" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com/teqliman" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://instagram.com/teqball" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://teqball.com" target="_blank"><i class="fas fa-globe"></i></a>
+            <a href="https://jsdpartizan.rs" target="_blank"><i class="fas fa-shield-halved"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <a href="about.html">About</a>
+          <a href="players.html">Players</a>
+        <a href="calendar.html">Calendar</a>
+          <a href="news.html">News</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Sport</h4>
+          <a href="training.html">Training</a>
+          <a href="video.html">Video</a>
+          <a href="https://teqball.com">Teqball.com</a>
+          <a href="https://fiteq.com">FITEQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="https://maps.google.com/?q=Humska+1+Belgrade">Humska 1, 11000 Belgrade</a>
+          <a href="https://instagram.com/teqliman">@teqliman</a>
+          <a href="https://jsdpartizan.rs">JSD Partizan</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Teqball Partizan. All rights reserved.</p>
+        <p>Part of the JSD Partizan family</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => document.getElementById('navLinks').classList.toggle('open'));
+    document.querySelectorAll('.nav-links a').forEach(l => l.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open')));
+  </script>
+</body>
+</html>
