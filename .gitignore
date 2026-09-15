@@ -1,0 +1,21 @@
+# секреты
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# зависимости и кэш
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.next/
+dist/
+
+# системный мусор
+desktop.ini
+Thumbs.db
+.DS_Store
